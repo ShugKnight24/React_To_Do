@@ -1,0 +1,16 @@
+#completed-to-do-header {
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+    font-style: italic;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #0267C1;
+    border-left: 10px double #7D1D3F;
+}
+
+#completed-items ul {
+    list-style-type: none;
+    padding: 0;
+}

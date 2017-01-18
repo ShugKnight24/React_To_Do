@@ -1,0 +1,85 @@
+body {
+    background: #eee;
+    margin: 20px;
+    font-family: tahoma;
+}
+
+/*----------------------*/
+/* Site Wrapper Styles */
+/*--------------------*/
+#site-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background: #FAF2AD;
+    border-top: 5px solid #0267C1;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+    color: #333;
+}
+
+/*----------------------*/
+/* White Cover Styles */
+/*-------------------*/
+#shumunov-label {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background: #FCF7F8;
+    box-shadow: 0 15px 15px rgba(0,0,0,0.7);
+}
+
+/* SVG Container Styles */
+#header-icon {
+    width: 40%;
+}
+
+/* SVG Styles */
+#header-icon svg {
+    align-self: center;
+    margin-left: 95px;
+}
+
+#header-icon p {
+    margin: 0;
+    margin-left: 20px;
+}
+
+/* Text Container Styles */
+#label-text {
+    width: 60%;
+    color: #000;
+}
+
+/*--------------------*/
+/* To-Do List Styles */
+/*------------------*/
+#to-do-list {
+    margin: 0 20px 20px 20px;
+}
+
+/* To-Do List Header Styles */
+#to-do-header {
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+    font-style: italic;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding-top: 25px;
+    border-bottom: 1px solid #0267C1;
+    border-left: 10px double #7D1D3F;
+    -webkit-margin-after: -0.5em;
+    -webkit-margin-before: 0;
+}
+
+#to-do-list ul {
+    list-style-type: none;
+    padding: 0;
+}

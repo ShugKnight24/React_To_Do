@@ -1,0 +1,44 @@
+#add-to-do {
+    display: flex;
+}
+
+#add-to-do input.add-text {
+    flex-basis: 0;
+    flex-grow: 7;
+    padding: 10px;
+    border: 2px solid #0267C1;
+    border-radius: 4px 0 0 4px;
+    color: #000;
+}
+
+#add-to-do input.add-text::-webkit-input-placeholder{
+    color: #0267C1;
+}
+
+#add-to-do input.add-text::-moz-placeholder {
+  color: #0267C1;
+}
+
+#add-to-do input.add-text:-ms-input-placeholder {
+    color: #0267C1;
+}
+
+#add-to-do input.add-text:-moz-placeholder {
+  color: #0267C1;
+}
+
+#add-to-do input.add-button {
+    flex-basis: 0;
+    flex-grow: 3;
+    padding: 10px;
+    background: #0267C1;
+    border-radius: 0 4px 4px 0;
+    border: 2px solid #0267C1;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#add-to-do input:required:focus {
+
+}
